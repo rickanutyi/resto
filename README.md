@@ -1,2 +1,2 @@
 # resto
-https://rickanutyi.github.io/deploy/
+https://rickanutyi.github.io/resto/
