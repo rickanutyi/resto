@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.banner {
+  height: 484px;
+  background-image: url("../img/images/menu 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-color: black;
+}
+
+.banner .banner__shadow {
+  height: 100%;
+  background: linear-gradient(90deg, #1a1919 30%, rgba(0, 0, 0, 0) 100%);
+}
+
+.banner .banner__shadow .banner__content {
+  height: 100%;
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner .banner__shadow .banner__content .banner__title {
+  position: relative;
+  display: inline;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  transform: rotate(-8.37deg);
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  top: 122px;
+}
+
+.banner .banner__shadow .banner__content .banner__title::after {
+  content: "Доставка ВКУСНЕЙШИХ БЛЮд за 60 минут";
+  position: absolute;
+  left: -14px;
+  top: 3px;
+  right: 0px;
+  color: transparent;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 120%;
+  -webkit-text-stroke: 1px #f8f2f2;
+  transition: 200ms ease-in;
+}
+
+.banner .banner__shadow .banner__content .btn {
+  position: relative;
+  top: 136px;
+}
+
+.banner .banner__shadow .banner__content .btn button {
+  position: relative;
+  border: none;
+  outline: none;
+  width: 220px;
+  height: 35px;
+  background-color: #618967;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 109.2%;
+  text-align: center;
+  color: #ffffff;
+  transform: rotate(-8.37deg);
+  z-index: 2;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.banner .banner__shadow .banner__content .btn button:hover {
+  top: -10px;
+  right: -4px;
+  transition: 200ms ease-in-out;
+}
+
+.banner .banner__shadow .banner__content .btn span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid white;
+  transform: rotate(-8.37deg);
+}
+
+@media all and (max-width: 1110px) {
+  .banner {
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 830px) {
+  .banner .banner__shadow .banner__content {
+    width: 100%;
+  }
+}
+
+.webp .banner{ background-image: url("../img/images/menu 2.png"); }
